@@ -30,7 +30,7 @@
 
 # README.md (top‑tier, dApp‑specific)
 
-`markdown
+```markdown
 
 User Interface + React API Layer + Blockchain Smart Contracts + IPFS Code Storage
 
@@ -64,22 +64,22 @@ root/
   contracts/          # Smart contracts
   docs/               # Documentation
   scripts/            # Deployment / tooling
-`
+```
 
 Update this to match your actual structure.
 
 ## Getting started
 
 Prerequisites
-
+```
 - Node.js >= 18
 - npm / yarn / pnpm
 - [Chain] wallet + RPC endpoint
 - IPFS gateway or pinning service credentials
-
+```
 ### Installation
 
-`bash
+```bash
 git clone https://github.com/RickCreator87/User-Interface-React-API-Layer-Blockchain-Smart-Contracts-IPFS-Code-Storage-.git
 cd User-Interface-React-API-Layer-Blockchain-Smart-Contracts-IPFS-Code-Storage-
 
@@ -87,7 +87,7 @@ Example:
 cd frontend
 npm install
 npm run dev
-`
+```
 
 #### Environment variables
 
@@ -97,13 +97,13 @@ Copy .env.example to .env and fill in:
 cp .env.example .env
 `
 
-Key variables:
+`Key variables:
 
 - VITERPCURL=  
 - VITECONTRACTADDRESS=  
 - VITEIPFSGATEWAY_URL=  
 - VITEIPFSAPI_KEY=  
-
+`
 ## Usage
 
 1. Start the frontend:
@@ -160,7 +160,7 @@ See [Looks like the result wasn't safe to show. Let's switch things up and try s
 
 If you’re using Node/React + contracts:
 
-`gitignore
+```gitignore
 
 Node
 node_modules/
@@ -193,7 +193,7 @@ Contracts
 artifacts/
 cache/
 typechain/
-`
+```
 
 ---
 
@@ -201,14 +201,14 @@ typechain/
 
 Pick one (MIT is common). Example MIT:
 
-`text
+```text
 MIT License
 
 Copyright (c) 2026 Richard
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 ...
-`
+```
 
 (You can grab the full MIT text from any MIT-licensed repo.)
 
@@ -216,7 +216,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 
 # CONTRIBUTING.md
 
-`markdown
+```markdown
 
 Contributing
 
@@ -252,7 +252,7 @@ Pull request checklist
 - Code builds and tests pass
 - New features include basic docs
 - No secrets committed
-`
+```
 
 ---
 
@@ -264,7 +264,7 @@ You can use Contributor Covenant v2.1 as-is. It’s the standard.
 
 ## SECURITY.md
 
-`markdown
+```markdown
 
 Security policy
 
@@ -284,13 +284,13 @@ If you discover a security issue:
   - Any suggested fixes
 
 We aim to respond within 7 days.
-`
+```
 
 ---
 
 .env.example
 
-`bash
+```bash
 
 Blockchain
 VITERPCURL=
@@ -304,13 +304,13 @@ VITEIPFSSECRET=
 
 API
 VITEAPIBASE_URL=
-`
+```
 
 ---
 
 ## ARCHITECTURE.md
 
-`markdown
+```markdown
 
 ### Architecture
 
@@ -337,13 +337,13 @@ This project is composed of:
 - Contract module: Wraps ABI calls
 - IPFS module: Upload, pin, and fetch
 - State management: [Redux/Zustand/Context/etc.]
-`
+```
 
 ---
 
 ## CONTRACTS.md
 
-`markdown
+```markdown
 
 ### Smart contracts
 
@@ -379,7 +379,7 @@ Deploy
 
 `bash
 npx hardhat run scripts/deploy.ts --network sepolia
-`
+```
 `
 
 ---
@@ -388,7 +388,7 @@ npx hardhat run scripts/deploy.ts --network sepolia
 
 .github/ISSUETEMPLATE/bugreport.md
 
-`markdown
+```markdown
 ---
 name: Bug report
 about: Report a bug
@@ -411,11 +411,11 @@ Environment
 - Network:
 
 Additional context
-`
+```
 
 .github/PULLREQUESTTEMPLATE.md
 
-`markdown
+```markdown
 
 # Description
 
