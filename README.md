@@ -204,7 +204,7 @@ Pick one (MIT is common). Example MIT:
 `text
 MIT License
 
-Copyright (c) 2025 Richard
+Copyright (c) 2026 Richard
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 ...
@@ -277,7 +277,7 @@ Reporting a vulnerability
 If you discover a security issue:
 
 - Do not open a public GitHub issue
-- Email: [your-security-email@example.com]
+- Email: [your-security-email@gitdigital-products.com
 - Include:
   - Steps to reproduce
   - Impact assessment
@@ -312,9 +312,9 @@ VITEAPIBASE_URL=
 
 `markdown
 
-Architecture
+### Architecture
 
-Overview
+#### Overview
 
 This project is composed of:
 
@@ -347,13 +347,13 @@ This project is composed of:
 
 ### Smart contracts
 
-Networks
+## Networks
 
 - Network: [e.g., Ethereum Sepolia]
 - RPC: [your RPC URL]
 - Explorer: [link]
 
-Deployed contracts
+### Deployed contracts
 
 - Main contract: YourContractName
   - Address: 0x...
@@ -395,7 +395,7 @@ about: Report a bug
 labels: bug
 ---
 
-Describe the bug
+## Describe the bug
 A clear description of the issue.
 
 To Reproduce
@@ -419,9 +419,9 @@ Additional context
 
 # Description
 
-Describe the changes introduced by this PR.
+## Describe the changes introduced by this PR.
 
-Type of change
+### Type of change
 
 - [ ] Bug fix
 - [ ] New feature
